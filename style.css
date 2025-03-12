@@ -1,0 +1,45 @@
+html {
+    font-family: "Ubuntu", sans-serif !important;
+    font-weight: 400 !important;
+    font-style: normal !important;
+}
+
+.btn-primary {
+    background-color: antiquewhite !important;
+    color: black;
+    border: 0;
+    text-align: center;
+
+    font-family: "Ubuntu", sans-serif !important;
+    font-weight: 500 !important;
+    font-style: normal !important;
+}
+
+.btn-primary:hover {
+    background-color: rgb(204, 188, 168) !important;
+    color: black;
+}
+
+.image-button {
+    display: block;
+    width: 50%;
+    height: 20vh;
+    max-height: 600px;
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.image-button:hover {
+    filter: brightness(1.1);
+    transform: scale(1.1);
+}
+
+.ubuntu-700 {
+    font-family: "Ubuntu", sans-serif !important;
+    font-weight: 700 !important;
+    font-style: normal;
+}

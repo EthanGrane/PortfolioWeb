@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ethan Grane Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">Ethan Grane</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="d-flex flex-column align-items-center justify-content-start text-white text-center"
+        style="height: 90vh; background-position: top; background-size: cover; position: relative;">
+
+        <!-- Video de fondo -->
+        <video autoplay muted loop
+            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: -1; filter: brightness(0.3);">
+            <source src="resources/SpyOnTheMobTown_Gameplay.webm" type="video/webm">
+            Tu navegador no soporta el formato de video.
+        </video>
+
+        <!-- Logo del juego (ajustado para estar en la parte superior) -->
+        <div style="height: 50vh; width: 80%; background-image: url('resources/SpyOnTheMobTown_Logo.png'); 
+        background-size: contain; background-repeat: no-repeat; background-position: center;">
+        </div>
+
+        <!-- Carrusel de imágenes (debajo del section) -->
+        <div class="mb-5 mt-0" style="height: 240px; background-image: url('resources/SpyOnTheMobTown_Carrusel.png'); 
+        width: 99%;
+        background-size: auto 100%; 
+        background-repeat: repeat-x; 
+        background-position: 0 0; 
+        animation: scroll-image 10s linear infinite;
+        rotate: -2deg; position: relative;">
+        </div>
+
+        <!-- Botones encima del carrusel -->
+        <div class="d-flex justify-content-between w-50 mb-0 mt-5"
+            style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 1;">
+
+            <a href="https://discord.gg/SsjczNgk8u" class="image-button"
+                style="background-image: url('resources/Discord_Button.png'); rotate: -2deg; transform: translate(0%, -15%);"></a>
+
+            <a href="#" class="image-button"
+                style="background-image: url('resources/Steam_Button.png'); rotate: -2deg; transform: translate(0%, -25%);"></a>
+        </div>
+
+    </section>
+
+    <div style="height: 64px; background-color: rgb(20, 20, 20);"></div>
+
+    <section class="d-flex flex-column align-items-center justify-content-start text-white text-center"
+        style="height: 90vh; background-position: top; background-size: cover; position: relative; display: flex;">
+
+        <!-- Video de fondo -->
+        <video autoplay muted loop
+            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: -1; filter: brightness(0.3);">
+            <source src="resources/TheOutsider_Gameplay.webm" type="video/webm">
+            Tu navegador no soporta el formato de video.
+        </video>
+
+        <!-- Imagen alineada abajo dentro del section -->
+        <div style="height: 100vh; width: 50%;
+        background-image: url('resources/TheOutsider_Logo.png'); 
+        background-size: contain; 
+        background-repeat: no-repeat; 
+        background-position: left center;
+        
+        margin: 8px;">
+        </div>
+
+        <div class="w-50">
+            <p>
+                he Outsider is a short story created by Howard Phillips Lovecraft which conveys the loneliness and
+                despair of human beings, my goal is to convey all those feelings of the story in a game between 1h to 2h
+                and a half.
+            </p>
+            <p>It is a first person game where you have to solve immersive puzzles in the Amnesia: The Dark Descent
+                style, while you advance through the game a gloomy narrator as if it were a voiceover explains the
+                thoughts of the protagonist of the story.</p>
+            <p>It all begins in a gloomy castle with high ceilings and long dark corridors where solitude and calm
+                reign, the castle is infinitely horrible and there was never any light since some trees that surrounded
+                the hateful castle did not let light in through the windows, until in an act of lucidity you decide to
+                exit the castle to be able to see the light of day, even if it was for a moment.</p>
+        </div>
+    </section>
+
+    <div class="m-0" style="height: 64px; background-color: rgb(20, 20, 20);"></div>
+
+    <section class="d-flex flex-column align-items-center justify-content-start text-white text-center"
+        style="height: 90vh; background-position: top; background-size: cover; position: relative; display: flex;">
+
+        <!-- Video de fondo -->
+        <video autoplay muted loop
+            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: -1; filter: brightness(0.3);">
+            <source src="resources/TheWayOfCreator.webm" type="video/webm">
+            Tu navegador no soporta el formato de video.
+        </video>
+
+        <!-- Imagen alineada abajo dentro del section -->
+        <div style="height: 100vh; width: 100%; 
+        background-image: url('resources/TheWayOfCreator_Resource_1.png'); 
+        background-size: contain; 
+        background-repeat: no-repeat; 
+        background-position: left center;
+        
+        margin: 8px;">
+        </div>
+
+    </section>
+
+    <div style="height: 64px; background-color: rgb(20, 20, 20);"></div>
+
+    <section class="bg-dark m-0 p-0">
+        <h1 class="text-center p-3 ubuntu-700" style="color: white;">
+            My Unity Assets
+        </h1>
+
+        <div class="container m-auto p-0" style="width: 100%;">
+            <div class="row">
+                <div class="col-6 text-center p-0 m-0">
+                    <div class="w-100 d-flex justify-content-center align-items-center" style="
+                        height: 33vh; 
+                        width: 100%; 
+                        background-image: url(resources/InsectVFX.gif);
+                        background-size: cover;
+                        background-position: center;
+                        background-repeat: no-repeat;
+                    "></div>
+                </div>
+
+                <div class="col-6 text-center p-0 m-0">
+                    <div class="w-100 d-flex justify-content-center align-items-center" style="
+                        height: 33vh; 
+                        width: 100%; 
+                        background-image: url(resources/InsectVFX.gif);
+                        background-size: cover;
+                        background-position: center;
+                        background-repeat: no-repeat;
+                    "></div>
+                </div>
+
+                <div class="col-6 text-center p-0 m-0">
+                    <div class="w-100 d-flex justify-content-center align-items-center" style="
+                        height: 33vh; 
+                        width: 100%; 
+                        background-image: url(resources/InsectVFX.gif);
+                        background-size: cover;
+                        background-position: center;
+                        background-repeat: no-repeat;
+                    "></div>
+                </div>
+
+                <div class="col-6 text-center p-0 m-0">
+                    <div class="w-100 d-flex justify-content-center align-items-center" style="
+                        height: 33vh; 
+                        width: 100%; 
+                        background-image: url(resources/InsectVFX.gif);
+                        background-size: cover;
+                        background-position: center;
+                        background-repeat: no-repeat;
+                    "></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+</body>
+
+
+<style>
+    @keyframes scroll-image {
+        0% {
+            background-position: 0 0;
+        }
+
+        100% {
+            background-position: 100% 0;
+        }
+    }
+</style>
+
+</html>
