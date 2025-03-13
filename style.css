@@ -43,3 +43,16 @@ html {
     font-weight: 700 !important;
     font-style: normal;
 }
+
+.card video {
+    filter: brightness(0.3);
+    transition: filter 0.3s ease-in-out;
+}
+
+.card-body {
+    transition: opacity 0.3s ease-in-out;
+}
+
+.card:hover video {
+    filter: brightness(1);
+}
